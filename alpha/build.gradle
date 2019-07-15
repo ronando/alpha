@@ -80,7 +80,7 @@ publishing {
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "22.0.1"
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 14
@@ -97,7 +97,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     // Unit testing dependencies
 //    testCompile 'junit:junit:4.12'
 //    // Set this dependency if you want to use Mockito

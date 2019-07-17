@@ -104,3 +104,6 @@ dependencies {
 //    // Set this dependency if you want to use Hamcrest matching
 //    androidTestCompile 'org.hamcrest:hamcrest-library:1.1'
 }
+
+
+apply from: '../gradle-maven-push.gradle'
